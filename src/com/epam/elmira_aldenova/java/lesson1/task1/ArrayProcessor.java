@@ -1,8 +1,4 @@
 package com.epam.elmira_aldenova.java.lesson1.task1;
-
-import com.sun.xml.internal.bind.v2.runtime.reflect.Lister;
-
-import java.lang.reflect.Array;
 import java.util.*;
 
 /**
