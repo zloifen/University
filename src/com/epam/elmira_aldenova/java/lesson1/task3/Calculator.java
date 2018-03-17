@@ -5,7 +5,11 @@ import com.epam.elmira_aldenova.java.lesson1.task1.ArrayProcessor;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.math.BigInteger;
+
+/**
+ * @author Альденова Эльмира
+ * Домашнее задание 1
+ */
 
 public class Calculator {
     public static void main(String[] args) throws IOException {

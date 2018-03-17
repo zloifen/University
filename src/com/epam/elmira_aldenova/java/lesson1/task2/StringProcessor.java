@@ -62,7 +62,7 @@ public class StringProcessor {
     private void printStringThatContainsOnlyDifferentChars(String[] strings) {
         String answer = "";
         for (int i = 0; i < strings.length && answer.isEmpty(); i++) {
-            Character[] chars = strings[i].chars().mapToObj(c -> (char)c).toArray(Character[]::new);
+            Character[] chars = strings[i].chars().mapToObj(c -> (char) c).toArray(Character[]::new);
             Set<Character> diffChars = new HashSet<>(Arrays.asList(chars));
             if (diffChars.size() == strings[i].length()) {
                 answer = strings[i];
@@ -75,8 +75,8 @@ public class StringProcessor {
     private void printStringWithMinNumberOfDifferentChars(String[] strings) {
         String answer = "";
         int numberOfDiffChars = Integer.MAX_VALUE;
-        for (String string: strings) {
-            Character[] chars = string.chars().mapToObj(c -> (char)c).toArray(Character[]::new);
+        for (String string : strings) {
+            Character[] chars = string.chars().mapToObj(c -> (char) c).toArray(Character[]::new);
             Set<Character> diffChars = new HashSet<>(Arrays.asList(chars));
             if (diffChars.size() < numberOfDiffChars) {
                 answer = string;
