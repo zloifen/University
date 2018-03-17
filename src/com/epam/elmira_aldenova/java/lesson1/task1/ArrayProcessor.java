@@ -1,4 +1,5 @@
 package com.epam.elmira_aldenova.java.lesson1.task1;
+
 import java.util.*;
 
 /**
@@ -40,7 +41,7 @@ public class ArrayProcessor {
         System.out.println("Difference between average value and minimum value: " + diff);
 
         System.arraycopy(array, 0, result, 0, array.length);
-        int[] elementsOccurMoreThanOnceAndOnOddPositions  = this.getElementsOccurMoreThanOnceAndOnOddPositions(result);
+        int[] elementsOccurMoreThanOnceAndOnOddPositions = this.getElementsOccurMoreThanOnceAndOnOddPositions(result);
         System.out.println("Elements that on odd positions and occurred more than once:");
         this.printArray(elementsOccurMoreThanOnceAndOnOddPositions);
     }
@@ -111,8 +112,7 @@ public class ArrayProcessor {
         for (int i = array.length - 1; i >= 0; i--) {
             if (array[i] < 0) {
                 flag = true;
-            }
-            else {
+            } else {
                 if (array[i] > 0) {
                     if (flag) {
                         array[i] *= 3;
@@ -154,7 +154,7 @@ public class ArrayProcessor {
 
         int[] toArray = new int[result.size()];
         int i = 0;
-        for (Integer item: result) {
+        for (Integer item : result) {
             toArray[i++] = item;
         }
 
