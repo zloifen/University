@@ -10,7 +10,7 @@ public class Student {
     private String lastName;
     private Program program;
 
-    public Student(String firstName, String lastName, Program program){
+    public Student(String firstName, String lastName, Program program) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.program = program;
@@ -34,8 +34,7 @@ public class Student {
         builder.append("(").append(this.program.getCurriculum()).append(") - ");
         if (this.getProgram().isProgramCompleted()) {
             builder.append("Обучение закончено. ");
-        }
-        else {
+        } else {
             builder.append("Обучение не закончено. ");
         }
 
@@ -54,8 +53,7 @@ public class Student {
         builder.append("Дата завершения: ").append(dateFormat.format(this.program.getEndDate())).append("\n");
         if (this.getProgram().isProgramCompleted()) {
             builder.append("Обучение закончено. ");
-        }
-        else {
+        } else {
             builder.append("Обучение не закончено. ");
         }
 

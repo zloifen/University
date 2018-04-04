@@ -26,7 +26,7 @@ public class EducationCenter {
         Course course2 = new Course("Struts Framework", 23);
         Program program1 = new Program("J2EE Developer",
                 new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-03-14 10:00"),
-                new Course[] {course1, course2});
+                new Course[]{course1, course2});
         Student student1 = new Student("Ivan", "Ivanov", program1);
 
         Course course3 = new Course("Обзор технологий Java", 8);
@@ -34,7 +34,7 @@ public class EducationCenter {
         Course course5 = new Course("Технология JDBC", 14);
         Program program2 = new Program("Java Developer",
                 new SimpleDateFormat("yyyy-MM-dd hh:mm").parse("2018-04-01 15:00"),
-                new Course[] {course3, course4, course5});
+                new Course[]{course3, course4, course5});
         Student student2 = new Student("Petr", "Petrov", program2);
 
         System.out.println("Введите 0 - короткий отчет");

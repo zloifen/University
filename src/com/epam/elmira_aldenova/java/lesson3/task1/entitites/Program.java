@@ -39,8 +39,7 @@ public class Program {
             if (currentTime.getHour() >= startHour && currentTime.getHour() < endHour) {
                 hours += (endHour - currentTime.getHour());
                 currentTime = currentTime.plusHours(24 - currentTime.getHour() + startHour);
-            }
-            else {
+            } else {
                 if (currentTime.getHour() < startHour) {
                     currentTime = currentTime.plusHours(startHour - currentTime.getHour());
                 } else {
@@ -55,13 +54,11 @@ public class Program {
             tempDateTime = tempDateTime.plusDays(days);
             hours += (endTime.getHour() - tempDateTime.getHour());
             return "До окончания осталось " + days + " д " + hours + " ч.";
-        }
-        else {
+        } else {
             if (endTime.getHour() >= startHour && endTime.getHour() < endHour) {
                 hours += (endHour - endTime.getHour());
                 endTime = endTime.plusHours(24 - endTime.getHour() + startHour);
-            }
-            else {
+            } else {
                 if (endTime.getHour() < startHour) {
                     endTime = endTime.plusHours(startHour - endTime.getHour());
                 } else {
@@ -76,8 +73,7 @@ public class Program {
             tempDateTime = tempDateTime.plusDays(days);
             if (currentTime.getHour() >= endHour) {
                 days++;
-            }
-            else {
+            } else {
                 if (currentTime.getHour() >= startHour) {
                     hours += (currentTime.getHour() - startHour);
                 }
@@ -103,8 +99,7 @@ public class Program {
         //Add hours of first day of program
         if (dateTime.getHour() >= startHour && dateTime.getHour() < endHour) {
             programDuration -= (endHour - dateTime.getHour());
-        }
-        else {
+        } else {
             if (dateTime.getHour() < startHour) {
                 programDuration -= academicHours;
             }
@@ -121,8 +116,7 @@ public class Program {
         if (hours == 0) {
             dateTime = dateTime.minusDays(1);
             dateTime = dateTime.plusHours(endHour);
-        }
-        else {
+        } else {
             dateTime = dateTime.plusHours(startHour + hours);
         }
         return Date.from(dateTime.atZone(ZoneId.systemDefault()).toInstant());
