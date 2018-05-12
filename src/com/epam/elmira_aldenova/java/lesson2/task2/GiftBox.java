@@ -6,7 +6,7 @@ import com.epam.elmira_aldenova.java.lesson2.task2.exceptions.InvalidWeightExcep
 
 /**
  * @author Альденова Эльмира
- * Домашнее задание 2
+ * Домашнее задание 4
  */
 
 public class GiftBox {
