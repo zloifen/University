@@ -1,6 +1,6 @@
-package com.epam.elmira_aldenova.java.lesson10.task10.dal;
+package com.epam.elmira_aldenova.java.lesson7.task7.dal;
 
-import com.epam.elmira_aldenova.java.lesson10.task10.dal.contracts.IConnection;
+import com.epam.elmira_aldenova.java.lesson7.task7.dal.contracts.IConnection;
 import com.mysql.jdbc.Connection;
 
 import java.sql.DriverManager;

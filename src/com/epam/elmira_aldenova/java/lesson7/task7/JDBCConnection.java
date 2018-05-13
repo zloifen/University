@@ -1,13 +1,13 @@
-package com.epam.elmira_aldenova.java.lesson10.task10;
+package com.epam.elmira_aldenova.java.lesson7.task7;
 
-import com.epam.elmira_aldenova.java.lesson10.task10.dal.ConnectionFactory;
-import com.epam.elmira_aldenova.java.lesson10.task10.dal.contracts.IConnection;
+import com.epam.elmira_aldenova.java.lesson7.task7.dal.ConnectionFactory;
+import com.epam.elmira_aldenova.java.lesson7.task7.dal.contracts.IConnection;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import com.epam.elmira_aldenova.java.lesson10.task10.entities.Employee;
+import com.epam.elmira_aldenova.java.lesson7.task7.entities.Employee;
 import com.mysql.jdbc.Statement;
 
 /**

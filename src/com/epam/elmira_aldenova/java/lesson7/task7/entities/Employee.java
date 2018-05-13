@@ -1,4 +1,4 @@
-package com.epam.elmira_aldenova.java.lesson10.task10.entities;
+package com.epam.elmira_aldenova.java.lesson7.task7.entities;
 
 public class Employee {
     private Integer id;
