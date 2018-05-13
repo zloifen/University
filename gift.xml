@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<candy>
+    <chocolate name="Snickers" energy="123" type="Stuffed" production="Prod">
+        <ingredients sugar="123" milk-chocolate="200"/>
+        <value proteins="324" fats="4554" carbohydrates="984"/>
+    </chocolate>
+
+    <cookie name="Oreo" energy="123" type="Oreo" production="Prod">
+        <ingredients sugar="123" milk-chocolate="200"/>
+        <value proteins="368" fats="44" carbohydrates="9846"/>
+    </cookie>
+
+    <marmalade name="Juicy" energy="123" type="Lemon" production="Prod">
+        <ingredients sugar="123" fructose="32"/>
+        <value proteins="76" fats="12" carbohydrates="984"/>
+    </marmalade>
+</candy>
